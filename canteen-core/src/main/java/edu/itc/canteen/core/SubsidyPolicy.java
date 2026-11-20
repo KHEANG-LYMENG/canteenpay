@@ -29,7 +29,7 @@ public final class SubsidyPolicy {
         ZonedDateTime local = at.atZone(ZONE);
         if (!calendar.isTeachingDay(local.toLocalDate())) return 0;
         LocalTime t = local.toLocalTime();
-        if (t.isBefore(LUNCH_START) || t.isAfter(LUNCH_END)) return 0;
+        if (t.isBefore(LUNCH_START) || !t.isBefore(LUNCH_END)) return 0;
         for (Item item : items) {
             if (item.category() == Category.MEAL) return Math.min(item.price(), SUBSIDY_CAP);
         }
