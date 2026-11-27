@@ -13,8 +13,8 @@ Pair: KHEANG Lymeng (KHEANG-LYMENG), NAT Chamnan (NatChamnan)
 | canteen-core/src/test/java/edu/itc/canteen/core/TopUpPolicyTest.java      | new                     | 7 unit tests for `TopUpPolicy` fee and top-up rules (`440a2da`)                                                                                                                 |
 | canteen-core/src/test/java/edu/itc/canteen/core/WalletTest.java           | new                     | 5 unit tests for `Wallet` charge, validation, and transfer (`440a2da`)                                                                                                          |
 | canteen-core/src/test/java/edu/itc/canteen/core/SubsidyPolicyTest.java    | new                     | 12 unit tests for `SubsidyPolicy`, one per clause of rule `SUB-1` (`37d20af`)                                                                                                 |
-| canteen-core/src/test/java/edu/itc/canteen/core/SettlementImpactTest.java | new                     | 2 challenge tests tracing the `14:00:00` subsidy fault through `PurchaseService` and `Settlement` (uncommitted)                                                               |
-| lab01/*.md                                                                | new                     | `tools.md` (`f0920d8`), `quality-requirements.md` (`6b4d6d4`, `2636948`), `vv-mapping.md` (`2636948`), `analysis.md` (`37d20af`), `impact.md` & `README.md`  |
+| canteen-core/src/test/java/edu/itc/canteen/core/SettlementImpactTest.java | new                     | 2 challenge tests tracing the `14:00:00` subsidy fault through `PurchaseService` and `Settlement` (`d3f73aa`)                                                                   |
+| lab01/*.md                                                                | new                     | `tools.md` (`f0920d8`), `quality-requirements.md` (`6b4d6d4`, `2636948`), `vv-mapping.md` (`2636948`), `analysis.md` (`37d20af`, `afba6c9`), `impact.md` & `README.md` (`d3f73aa`, `afba6c9`) |
 
 ## Reused from earlier labs
 
@@ -32,4 +32,4 @@ None: Lab-01 is the first lab. Supplied starter used as is: `pom.xml` and all 21
 | --------------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------- |
 | Setup, Task 1, Task 3, Task 5 (`SubsidyPolicyTest`)                                         | KHEANG Lymeng | `ba9ce13`, `f0920d8`, `2636948`, `37d20af` |
 | Task 2, Task 4 (`TopUpPolicyTest`, `WalletTest`), Task 5 (`analysis.md`, `README.md`) | NAT Chamnan   | `6b4d6d4`, `440a2da`, `37d20af`              |
-| Challenge                                                                                     | A and B       | define requirement logic                           |
+| Challenge                                                                                     | A and B       | `d3f73aa`, `afba6c9`                               |
