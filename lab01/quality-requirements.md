@@ -1,6 +1,6 @@
 # Lab-01 Task 2: quality requirements of CanteenPay
 
-Pair: KHEANG LYMENG, NAT Chamnan
+Pair: KHEANG Lymeng, NAT Chamnan
 
 Columns: internal or external (or process) · ISO/IEC 25010:2023 characteristic ·
 dependability property (correctness, reliability, robustness, safety) or process
