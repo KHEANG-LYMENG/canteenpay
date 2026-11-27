@@ -1,6 +1,6 @@
 # Lab-01 Challenge: From a Unit Failure to the Day's Settlement
 
-Pair: KHEANG LYMENG, NAT Chamnan
+Pair: KHEANG Lymeng, NAT Chamnan
 
 ## 1. Three failures against the supplied `SubsidyPolicy`
 

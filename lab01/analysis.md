@@ -1,6 +1,6 @@
 # Lab-01 Analysis: SubsidyPolicy seeded failure
 
-Pair: KHEANG LYMENG, NAT Chamnan
+Pair: KHEANG Lymeng, NAT Chamnan
 
 ## Failure report
 
@@ -35,11 +35,11 @@ expected: 0L
 
 ### Faulty interval (boundary probing)
 
-| Input (local time) | Expected  | Actual    | Result   |
-| ------------------ | --------- | --------- | -------- |
-| `13:59:59`         | `4,000`   | `4,000`   | Pass     |
-| `14:00:00`         | `0`       | `4,000`   | **Fail** |
-| `14:00:01`         | `0`       | `0`       | Pass     |
+| Input (local time) | Expected  | Actual    | Result         |
+| ------------------ | --------- | --------- | -------------- |
+| `13:59:59`       | `4,000` | `4,000` | Pass           |
+| `14:00:00`       | `0`     | `4,000` | **Fail** |
+| `14:00:01`       | `0`     | `0`     | Pass           |
 
 Width of failing interval: **1 second** (`[14:00:00, 14:00:01)`) — only `14:00:00` itself fails.
 

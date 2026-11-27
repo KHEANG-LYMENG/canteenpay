@@ -1,6 +1,6 @@
 # Lab-01: Software quality in a nutshell
 
-Pair: KHEANG LYMENG (KHEANG-LYMENG), NAT Chamnan (NatChamnan)
+Pair: KHEANG Lymeng (KHEANG-LYMENG), NAT Chamnan (NatChamnan)
 
 ## Files changed in this lab
 
